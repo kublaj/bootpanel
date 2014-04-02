@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="">
+<title>BuildStrap | Slide panel for Bootstrap 3</title>
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/app.css" rel="stylesheet">
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->    
+</head>
+    
+<body>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" id="toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <i class="fa fa-bars"></i>
+			</button>
+            
+            <button type="button" class="pull-left navbar-toggle toggle-pos" onclick="panel();">
+                <i class="fa fa-bars"></i>
+			</button>
+			<a class="navbar-brand" href="#">Project</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Menu</a></li>
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Menu</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+					<li class="divider"></li>
+					<li class="dropdown-header">Menu</li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Menu</a></li>
+				</ul>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Menu</a></li>
+				<li><a href="#">Menu</a></li>
+				<li class="active"><a href="#">Menu</a></li>
+			</ul>
+		</div>
+		<!--/.nav-collapse -->
+	</div>
+</div>
+<div class="container">
+	<!-- Main component for a primary marketing message or call to action -->
+    
+	<h1>Mobile first sliding panel for Bootstrap 3</h1>
+	<p>For demo, swipe left or right with your mouse on desktop, or resize the view and touch the left panel icon.</p>
+	
+	
+	<div class="footer">
+        <p>&copy; Buildstrap 2014 - <a href="https://progweb.hu/?utm_source=boostrap.io" target="_blank">Webpositive</a></p>
+	</div>
+    
+</div>
+    
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="panel">
+    <h3>Nav</h3>
+    <a href="#"><i class="fa fa-cog"></i> Menu</a>
+    <a href="#"><i class="fa fa-cog"></i> Menu</a>
+    <a href="#"><i class="fa fa-cog"></i> Menu</a>
+    <a href="#"><i class="fa fa-cog"></i> Menu</a>
+    <a href="#"><i class="fa fa-cog"></i> Menu</a>
+</nav>
+    
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="assets/js/swipe.js"></script>
+<script src="assets/js/app.js"></script>
+
+</html>
