@@ -1,4 +1,9 @@
-/*app.js*/
+/*
+
+app.js
+Version: 0.4 - added jslint error fix
+
+*/
 
 var $;
 var console;
